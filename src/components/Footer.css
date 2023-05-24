@@ -1,0 +1,107 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 244, 241);
+  }
+  
+  .footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+  }
+  
+  .comp-div{
+    margin-top: 20px;
+    height: auto;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .comp-name{
+    color: rgb(241, 86, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    color: rgb(58, 57, 57);
+  }
+  
+  .company-div{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .comp-div span{
+    color: rgb(58, 57, 57);
+  }
+  
+  .sub-div{
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+  }
+  
+  .sub-div div{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  
+  .footer a{
+    color: rgb(58, 57, 57); 
+    text-decoration: none;
+  }
+  
+  .shots{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: rgb(247, 244, 241);
+  }
+  
+  .shots i{
+    color: rgb(241, 86, 112);
+  }
+  
+  .shots span{
+    color: rgb(58, 57, 57);
+  }
+  
+  @media screen and (max-width:1024px){
+    .footer-div{
+      flex-direction: column;
+    }
+  
+    .company-div{
+      height: auto;
+      width: 90%;
+    }
+
+    .sub-div{
+        gap: 20px;
+      }
+  
+    .sub-div div{
+      gap: 20px;
+    }
+  }
+  
