@@ -62,10 +62,13 @@
     text-align: center;
   }
   
-  
   .footer a{
     color: rgb(58, 57, 57); 
     text-decoration: none;
+  }
+
+  .sub-div strong{
+    color: rgb(58, 57, 57); 
   }
   
   .shots{

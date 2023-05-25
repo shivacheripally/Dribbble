@@ -12,23 +12,17 @@ const HandleClick = function (props) {
             return (
               <div className="box" key={index}>
                 <div className="handle-data">
-                  <p>{animation.author}</p>
+                  {animation.author}
                   <div className="likes">
-                    <span>
                       <i className="fa-solid fa-heart"></i>
                       {animation.like}
-                    </span>
-                    <span>
                       <i className="fa-solid fa-eye"></i>
                       {animation.views}
-                    </span>
                   </div>
                 </div>
                 <img src={animation.image} alt={animation.value} />
                 <div className="about">
-                  <span>
                   {animation.about}
-                  </span>
                 </div>
               </div>
             );

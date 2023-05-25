@@ -15,19 +15,19 @@ export default function Footer() {
               </span>
               <ul className="social-icons">
                 <li>
-                  <i class="fa-solid fa-basketball"></i>
+                  <i className="fa-solid fa-basketball"></i>
                 </li>
                 <li>
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </li>
                 <li>
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </li>
                 <li>
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </li>
                 <li>
-                  <i class="fa-brands fa-pinterest"></i>
+                  <i className="fa-brands fa-pinterest"></i>
                 </li>
               </ul>
             </div>
@@ -171,7 +171,7 @@ export default function Footer() {
       </div>
       <div className="shots">
         <span>© 2023 Dribbble. All rights reserved.</span>
-        <span>21,539,219 shots dribbbled <i class="fa-solid fa-basketball"></i></span>
+        <span>21,539,219 shots dribbbled <i className="fa-solid fa-basketball"></i></span>
       </div>
     </>
   );

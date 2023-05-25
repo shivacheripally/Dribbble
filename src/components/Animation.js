@@ -46,17 +46,29 @@ const Animation = () => {
 
   const imgClick = (index) => {
     setImgIndex(index);
-    console.log('Image Clicked:', index);
   };
 
   return (
     <BrowserRouter>
       <div className="content">
-        <Routes>
-          <Route exact path="/" element={<HandleClick imgIndex={imgIndex} />} />
-          <Route path="/one" element={<HandleClick imgIndex={imgIndex} />} />
-          <Route path="/two" element={<HandleClick imgIndex={imgIndex} />} />
-          <Route path="/three" element={<HandleClick imgIndex={imgIndex} />} />
+      <Routes>
+          <Route
+            exact
+            path="/"
+            element={<HandleClick imgIndex={imgIndex} />}
+          />
+          <Route
+            path="/one"
+            element={<HandleClick imgIndex={imgIndex} />}
+          />
+          <Route
+            path="/two"
+            element={<HandleClick imgIndex={imgIndex} />}
+          />
+          <Route
+            path="/three"
+            element={<HandleClick imgIndex={imgIndex} />}
+          />
         </Routes>
       </div>
       <div className="component-div">
@@ -67,16 +79,12 @@ const Animation = () => {
               <div className="each-component">
                   <img onClick={()=>imgClick(index)} src={animation.image} alt={animation.value} />
                   <div className="data">
-                    <p>{animation.author}</p>
+                    {animation.author}
                     <div className="likes">
-                      <span>
                         <i className="fa-solid fa-heart"></i>
                         {animation.like}
-                      </span>
-                      <span>
                         <i className="fa-solid fa-eye"></i>
                         {animation.views}
-                      </span>
                     </div>
                   </div>
               </div>
@@ -89,3 +97,4 @@ const Animation = () => {
 };
 
 export default Animation;
+ 

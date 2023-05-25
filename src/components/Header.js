@@ -7,7 +7,6 @@ export default function Header() {
 
   const handleClick = function(){
     setIsClicked(!isClikced);
-    console.log("yes");
   }
   return (
     <>
