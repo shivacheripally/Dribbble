@@ -30,7 +30,7 @@ The footer component displays further company details and provides additional li
 
 To use this project locally, follow the instructions below:
 
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone [https://github.com/shivacheripally/Dribbble]`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
